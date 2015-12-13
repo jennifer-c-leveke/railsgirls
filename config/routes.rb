@@ -12,7 +12,12 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'pages#inicio'
-
+  
+  get 'traduccion/software'
+  get 'traduccion/web'
+  get 'traduccion/aplicaciones'
+  get 'traduccion/tiendas'
+  get 'preguntas/frecuentes'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
